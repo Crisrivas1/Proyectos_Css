@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+.galeria{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 0;
+   
+}
+.galeria-title{
+    margin: 40px 0;
+    padding-bottom: 20px;
+    font-size: 35px;
+    border-bottom: 5px solid rgb(15, 52, 87);
+}
+.imagen{
+    width: 30%;
+    height: 280px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 20px;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.548);
+    object-fit: cover;
+    cursor: pointer;
+}
